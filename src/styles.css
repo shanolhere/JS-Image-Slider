@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 2rem auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 158, 216);
+  padding: 20px;
+  border-radius: 10px;
+}
+img {
+  width: 450px;
+  height: 350px;
+}
+
+.slider {
+  display: none;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: rgb(228, 13, 228);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:active {
+  transform: scaleX(0.8);
+}
